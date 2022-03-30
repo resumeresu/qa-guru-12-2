@@ -2,7 +2,7 @@ package guru.qa;
 
 import java.time.LocalTime;
 
-public class Main {
+public class Greetings {
 
     public static void main(String[] args) {
         LocalTime currentTime = LocalTime.now();
