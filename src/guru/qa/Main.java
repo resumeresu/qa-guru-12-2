@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
         LocalTime currentTime = LocalTime.now();
-        if (currentTime.isBefore(LocalTime.of(5, 0))) {
+        if (currentTime.isBefore(LocalTime.of(6, 0))) {
             System.out.println("Good night!");
         } else if (currentTime.isBefore(LocalTime.of(10, 0))) {
             System.out.println("Good morning!");
